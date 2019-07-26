@@ -23,3 +23,5 @@ android:             #Android 环境要求
   - android-sdk-preview-license-.+
   - android-sdk-license-.+
   - google-gdk-license-.+
+before_install:
+  - chmod +x gradlew
